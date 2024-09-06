@@ -1,0 +1,70 @@
+.rightside{
+    padding: 20px;
+    
+    
+}
+
+.tabs-widget{
+    display: flex;
+    flex-direction: column; /* Aligns the flex items (sections) vertically */
+ 
+}
+
+.flex-container {
+    display: flex;
+    background-color: none;
+  }
+  .navbar {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+  
+    background-color: #1b1b1b; /* Adjust to match your design */
+    border-radius: 16px;
+}
+
+.custom-nav-item {
+
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #201f1f; /* Adjust to match your design */
+    border-radius: 16px;
+    color: #050505; /* Adjust text color */
+    opacity: 1;
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.custom-nav-item:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+    opacity: 0.9; /* Slightly reduce opacity on hover */
+    box-shadow: 10px 10px 5px 12px rgba(0, 2, 3, 0.323);
+    background-color: black;
+}
+
+
+ .nav-item {
+    cursor: pointer;
+    padding: 10px 34px;
+    font-weight: bold;
+    color: #e4e7ea; /* Darker text color */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .tabs-widget .custom-nav-item:hover {
+    color: #000000; /* Change text color on hover */
+    background-color: #f0f0f0;
+    width: auto;
+    
+  }
+  
+  .tabs-widget .custom-nav-item.active {
+    color: #000000;
+  
+    border-radius: 10px;
+  }
